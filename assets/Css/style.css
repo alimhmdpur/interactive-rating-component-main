@@ -1,0 +1,158 @@
+.first-page {
+  background-image: linear-gradient(to bottom, hsl(213deg, 19%, 13%) 35%, hsl(216deg, 12%, 8%) 85%);
+  background-color: hsl(216deg, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  max-width: 23rem;
+  aspect-ratio: 1/1;
+}
+.first-page .img .star-img {
+  background-color: hsl(213deg, 19%, 18%);
+  padding: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.first-page h2 {
+  color: white;
+  font-weight: 700;
+  margin-top: 0.8rem;
+}
+.first-page p {
+  color: hsl(216deg, 12%, 54%);
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.first-page .form-rating form {
+  display: flex;
+  gap: 1.25rem;
+  width: 100%;
+}
+.first-page .form-rating form .input-rating {
+  color: hsl(216deg, 12%, 54%);
+  font-size: 1.1rem;
+  padding: 0.95rem 1.2rem;
+  border-radius: 50%;
+  background-color: hsl(213deg, 19%, 18%);
+  aspect-ratio: 1/1;
+  border: none;
+  border: none;
+}
+.first-page .form-rating form .input-rating:hover {
+  background-color: hsl(217deg, 12%, 63%);
+  color: white;
+  cursor: none;
+}
+.first-page .form-rating form .input-rating:focus {
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+.first-page .form-rating .sumbit-btn {
+  color: white;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.79rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+.first-page .form-rating .sumbit-btn:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: white;
+  cursor: pointer;
+}
+
+.second-page {
+  background-image: linear-gradient(to bottom, hsl(213deg, 19%, 12%) 45%, hsl(216deg, 12%, 8%) 65%);
+  background-color: hsl(216deg, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.15rem;
+  border-radius: 1.5rem;
+  max-width: 23rem;
+  aspect-ratio: 1/1;
+}
+.second-page img {
+  max-width: 50%;
+}
+.second-page div {
+  background-color: hsl(213deg, 19%, 18%);
+  padding: 0.5rem 1.3rem;
+  border-radius: 1.5rem;
+}
+.second-page div p {
+  color: hsl(25deg, 97%, 53%);
+  text-align: center;
+}
+.second-page h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  font-size: 700;
+}
+.second-page p {
+  color: hsl(216deg, 12%, 54%);
+  text-align: center;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .mode {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 3rem;
+}
+body .mode .dark-btn {
+  background-color: white;
+  border: none;
+}
+body .mode .dark-btn .dark {
+  background-color: white;
+  max-width: 100%;
+}
+body .mode .dark-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+body .mode .light-btn {
+  background-color: black;
+  border: none;
+}
+body .mode .light-btn .light {
+  background-color: black;
+  max-width: 100%;
+}
+body .mode .light-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+body p {
+  font-size: 15px;
+}
+body .second-page {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
